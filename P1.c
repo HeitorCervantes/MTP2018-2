@@ -9,7 +9,7 @@ int main()
   int estado = 0, i = 0;
   char bits[256];
   printf("\nSequencia de bits: ");
-  scanf("%s", &bits);
+  scanf("%s", bits);
   for (i; bits[i]!='\0'; i++)
     {
       if(bits[i]=='0' && estado==1)
